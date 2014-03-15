@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">tyres</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_tyre_selector">TyreSelector</string>
+    <string name="producator">Producatorul masinii:</string>
+    <string name="model">Modelul masinii:</string>
+    <string name="spinner_title_prod">Alege un producator:</string>
+    <string name="spinner_title_model">Alege un model:</string>
+    <string name="title_activity_compatible_tyres">CompatibleTyres</string>
+    <string name="title_activity_my_tyre_info">MyTyreInfo</string>
+    <string name="title_activity_help">HelpActivity</string>
+    <string name="tip">Tipul</string>
+
+</resources>
