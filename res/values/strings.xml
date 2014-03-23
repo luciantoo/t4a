@@ -7,11 +7,14 @@
     <string name="title_activity_tyre_selector">TyreSelector</string>
     <string name="producator">Producatorul masinii:</string>
     <string name="model">Modelul masinii:</string>
+    <string name="anvelope">Anvelope compatibile:</string>
     <string name="spinner_title_prod">Alege un producator:</string>
     <string name="spinner_title_model">Alege un model:</string>
     <string name="title_activity_compatible_tyres">CompatibleTyres</string>
     <string name="title_activity_my_tyre_info">MyTyreInfo</string>
     <string name="title_activity_help">HelpActivity</string>
     <string name="tip">Tipul</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
 
 </resources>

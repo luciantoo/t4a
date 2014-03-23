@@ -6,5 +6,6 @@
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
 	<classpathentry exported="true" kind="lib" path="/Users/Laci/AndroidDev/parse/Parse-1.4.1/Parse-1.4.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/Laci/Downloads/core-3.0.0.jar"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>

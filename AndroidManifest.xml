@@ -5,12 +5,12 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="9"
+        android:minSdkVersion="16"
         android:targetSdkVersion="18" />
-    
+
     <uses-permission android:name="android.permission.INTERNET" />
-	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 
     <application
         android:name="com.example.tyres.TyresApp"
@@ -20,16 +20,14 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name="com.example.tyres.SplashScreen"
-            android:label="@string/app_name" 
-            android:theme="@style/Theme.Transparent">
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Transparent" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        
-        
         <activity
             android:name="com.example.tyres.MainActivity"
             android:label="@string/app_name" >
@@ -39,28 +37,30 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        
         <activity
             android:name="com.example.tyres.CompatibleTyres"
-            android:label="@string/title_activity_compatible_tyres">
+            android:label="@string/title_activity_compatible_tyres" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        
         <activity
             android:name="com.example.tyres.TyreSelector"
-            android:label="@string/title_activity_tyre_selector">
-
+            android:label="@string/title_activity_tyre_selector" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        
+        <activity
+            android:name="com.example.tyres.Help"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_help"
+            android:theme="@style/FullscreenTheme" >
+        </activity>
     </application>
 
 </manifest>

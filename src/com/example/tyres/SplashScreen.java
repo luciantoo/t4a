@@ -1,15 +1,11 @@
 package com.example.tyres;
 
 import android.os.Bundle;
-import android.app.ActionBar;
 import android.app.Activity;
 import android.content.Intent;
 import android.graphics.drawable.AnimationDrawable;
 import android.view.Menu;
-import android.view.View;
 import android.widget.ImageView;
-import android.widget.RelativeLayout;
-import android.widget.TextView;
 
 public class SplashScreen extends Activity {
 	private Thread mSplashThread; 
@@ -66,9 +62,9 @@ public class SplashScreen extends Activity {
 	
 	
 	
-	@Override
-	public void onResume(){
-		super.onResume();
+//	@Override
+//	public void onResume(){
+//		super.onResume();
 //		View decorView = getWindow().getDecorView();
 //		// Hide the status bar.
 //		int uiOptions = View.SYSTEM_UI_FLAG_FULLSCREEN;
@@ -77,9 +73,9 @@ public class SplashScreen extends Activity {
 //		// status bar is hidden, so hide that too if necessary.
 //		ActionBar actionBar = getActionBar();
 //		actionBar.hide();
-	}
+//	}
 	
-	public void onWindowFocusChanged (boolean hasFocus){
+//	public void onWindowFocusChanged (boolean hasFocus){
 //		View decorView = getWindow().getDecorView();
 //		// Hide the status bar.
 //		int uiOptions = View.SYSTEM_UI_FLAG_FULLSCREEN;
@@ -88,7 +84,7 @@ public class SplashScreen extends Activity {
 //		// status bar is hidden, so hide that too if necessary.
 //		ActionBar actionBar = getActionBar();
 //		actionBar.hide();
-	}
+//	}
 	
 
 	@Override
